@@ -1,0 +1,192 @@
+/* */
+html{font-family:serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+article,aside,footer,header,nav,section{display:block}
+h1{font-size:2em;margin:.67em 0}
+hr{box-sizing:content-box;height:0;overflow:visible}
+a:focus,a:active{outline:none}
+a{background-color:transparent;-webkit-text-decoration-skip:objects; text-decoration: none;}
+a:active,a:hover{outline-width:0}
+img{max-width:100%;border-style:none}
+ul {list-style: none;padding: 0;margin: 0;}
+li {list-style: none;
+    text-align: -webkit-match-parent;}
+.bi {display: inline-block;font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;}
+::-moz-selection{background:#0081fa;color:#FFF}
+::selection{background:#0081fa;color:#FFF}
+
+/* Body */
+body{margin:0}
+body::-webkit-scrollbar{background-color:#ffffff;width:10px}
+body::-webkit-scrollbar-thumb{background:#0081fa}
+body::-moz-selection{background:#0081fa;color:#FFF}
+
+/* All*/
+.main-container{max-width:100%;width:100%;margin:0 auto;background-color:#ffffff;
+    -webkit-box-shadow:0 4px 8px 0 #00000033,0 6px 20px 0 #00000030;
+    -moz-box-shadow:0 4px 8px 0 #00000033,0 6px 20px 0 #00000030;
+    box-shadow:0 4px 8px 0 #00000033,0 6px 20px 0 #00000030}
+
+.main-container:before,.main-container:after{
+    content:'';display:block;height:3px;
+    background:-webkit-linear-gradient(to right,#0081fa,#02e2f0);
+    background:-o-linear-gradient(to right,#0081fa,#02e2f0);
+    background:-moz-linear-gradient(to right,#0081fa,#02e2f0);
+    background:linear-gradient(to right,#0081fa,#02e2f0)}
+
+.nav-item:hover{
+        color: #ffffff!important;
+        background: -webkit-linear-gradient(to right,#0081fa,#02e2f0);
+        background: -o-linear-gradient(to right,#0081fa,#02e2f0);
+        background: -moz-linear-gradient(to right,#0081fa,#02e2f0);
+        background: linear-gradient(to right,#0081fa,#02e2f0);
+        border-radius: 5px;
+}
+    
+.menu li a:hover, header .menu li.selected a{
+        color: #ffffff!important;
+        background: -webkit-linear-gradient(to right,#0081fa,#02e2f0);
+        background: -o-linear-gradient(to right,#0081fa,#02e2f0);
+        background: -moz-linear-gradient(to right,#0081fa,#02e2f0);
+        background: linear-gradient(to right,#0081fa,#02e2f0);
+        border-radius: 5px;
+}
+
+.abdelmoubine1{
+    font-size: 30px;
+}
+
+.bi-1-square-fill, .bi-2-square-fill, .bi-3-square-fill{
+    font-size: 40px;
+}
+
+.bi-1-square-fill:hover, .bi-2-square-fill:hover, .bi-3-square-fill:hover{
+    color: #ff00bb;
+}
+
+.abdelmoubine1:hover{
+    text-transform: uppercase;
+    color: #a82400;
+}
+
+
+#features{
+    background-image:url(../img/faucet.png);
+    background-position:top;
+    background-size:200px 320px;
+}
+
+
+
+/* Footer */
+#footer{
+    position:relative;
+    background:#344049;
+    border-top:3px solid #0081fa;
+    clear:both;
+}
+
+#footer .color-wrap{
+    position:relative;
+    background-color:#0000001a;
+}
+
+.scroll-top{background-color:#232324;
+    width:30px;height:30px;
+    text-align:center;border-radius:100px;
+    color:#e0e0e0;border:none;
+    cursor:pointer;position:absolute;
+    left:calc(50% - 15px);
+    top:-15px;z-index:1;
+}
+
+.scroll-top i{
+    pointer-events:none;
+}
+
+.scroll-top:before{
+    display:block;
+}
+
+.scroll-top:hover{background:#4b4848;
+    color:#FFF;
+}
+
+#footer-cop-section{
+    padding:5px 20px;
+    position:relative;
+}
+#footer-cop-section:after{
+    content:"";
+    clear:both;
+    display:block;
+}
+
+#abdelmoubine{
+    color:#ffffff;
+    margin-top:5px;
+    float:left;
+}
+
+#abdelmoubine > *{vertical-align:middle;
+    display:inline-block;
+}
+#abdelmoubine a{
+    color:#0081fa;
+}
+
+#abdelmoubine a:hover{color:#02e2f0;text-decoration:underline}
+#abdelmoubine > b{font-family:Tahoma;color:#0081fa;font-size:15px;margin:0 5px}
+
+.social{
+    font-size:0;
+}
+
+.social li{display:inline-block;margin:0 2px}
+.social li i{color:#FFF;width:28px;height:28px;line-height:28px;margin-bottom:5px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;display:inline-block;text-align:center;font-size:16px}
+
+.social .bi-vk          {background-color:#45668e}
+.social .bi-facebook{background-color:#3b5998}
+.social .bi-twitter{background-color:#1da1f2}
+.social .bi-rss{background-color:#f26522}
+.social .bi-dribbble{background-color:#ea4c89}
+.social .bi-pinterest{background-color:#cc2127}
+.social .bi-linkedin{background-color:#0976b4}
+.social .bi-wordpress{background-color:#00769d}
+.social .bi-github{background-color:#000000}
+.social .bi-youtube{background-color:#e52d27}
+.social .bi-quora{background-color:#a82400}
+.social .bi-spotify{background-color:#1ed760}
+.social .bi-snapchat{background-color:#f5d602}
+.social .bi-instagram{background-color:#7c38af;background:radial-gradient(circle at 0 130%, 
+    #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)}
+.social .bi-behance{background-color:#009fff}
+.social .bi-whatsapp{background-color:#189d0e}
+.social .bi-soundcloud{background-color:#FF5419}
+.social .bi-tumblr{background-color:#3e5a70}
+.social .bi-telegram{background-color:#32AEE1}
+.social .bi-messenger{background-color:#0084ff}
+.social .bi-paypal{background-color:#193685}
+.social .bi-reddit{background-color:#ff4500}
+.social .bi-website{background-color:#444444}
+
+.social-static li:hover{-webkit-animation:abdelmoubineSocialMedia .2s ease-in-out;-moz-animation:abdelmoubineSocialMedia .2s ease-in-out;-o-animation:abdelmoubineSocialMedia .2s ease-in-out;animation:abdelmoubineSocialMedia .2s ease-in-out}
+@-webkit-keyframes abdelmoubineSocialMedia{
+50%{-webkit-transform:scale(0.7);transform:scale(0.7)}
+100%{-webkit-transform:scale(1.5);transform:cale(1.5)}
+}
+@-moz-keyframes abdelmoubineSocialMedia{
+50%{-webkit-transform:scale(0.7);-moz-transform:scale(0.7);transform:scale(0.7)}
+100%{-webkit-transform:scale(1.5);-moz-transform:cale(1.5);transform:cale(1.5)}
+}
+@-o-keyframes abdelmoubineSocialMedia{
+50%{-webkit-transform:scale(0.7);-o-transform:scale(0.7);transform:scale(0.7)}
+100%{-webkit-transform:scale(1.5);-o-transform:cale(1.5);transform:cale(1.5)}
+}
+@keyframes abdelmoubineSocialMedia{
+50%{-webkit-transform:scale(0.7);-moz-transform:scale(0.7);-o-transform:scale(0.7);transform:scale(0.7)}
+100%{-webkit-transform:scale(1.5);-moz-transform:cale(1.5);-o-transform:cale(1.5);transform:cale(1.5)}
+}
+#socialmedia{float:right;margin-top:5px}
